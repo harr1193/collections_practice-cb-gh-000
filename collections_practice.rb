@@ -7,8 +7,8 @@ def sort_array_desc(array)
   return array.sort { |a, b| b <=> a }
 end
 
-def SORT_ARRAY_CHAR_COUNT(array)
-
+def sort_array_char_count(array)
+  return array.sort { |a, b| b.length <=> a.length }
 end
 
 def SWAP_ELEMENTS(array)
