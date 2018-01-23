@@ -11,8 +11,8 @@ def sort_array_char_count(array)
   return array.sort { |a, b| a.length <=> b.length }
 end
 
-def SWAP_ELEMENTS(array)
-
+def swap_elements(array)
+  return array[1,2].sort
 end
 
 def KESHA_MAKER(array)
