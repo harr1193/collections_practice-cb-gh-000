@@ -29,8 +29,8 @@ def find_a(array)
   return array.find_all { |str| str.start_with?('a')}
 end
 
-def SUM_ARRAY(array)
-
+def sum_array(array)
+  return array.inject(+) { |a,b| a + b }
 end
 
 def ADD_S(array)
