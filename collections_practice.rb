@@ -12,7 +12,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  return array[1,2].sort
+  return array[1], array[2] = array[2], array[1]
 end
 
 def KESHA_MAKER(array)
