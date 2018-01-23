@@ -25,8 +25,8 @@ def kesha_maker(array)
   return array
 end
 
-def FIND_A(array)
-
+def find_a(array)
+  return array.find_all { |str| str.start_with?('a')}
 end
 
 def SUM_ARRAY(array)
@@ -37,4 +37,3 @@ def ADD_S(array)
 
 end
 
-kesha_maker(["blake", "ashley", "scott"])
