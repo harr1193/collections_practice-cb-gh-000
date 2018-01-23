@@ -16,8 +16,8 @@ def swap_elements(array)
   return array
 end
 
-def KESHA_MAKER(array)
-
+def kesha_maker(array)
+  array.each { |str| str[2] = $ }
 end
 
 def FIND_A(array)
