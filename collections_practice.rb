@@ -16,8 +16,12 @@ def swap_elements(array)
   return array
 end
 
+def reverse_array(array)
+  return array.sort { |a,b| b <=> a }
+end
+
 def kesha_maker(array)
-  array.each { |str| }
+  array.each { |str|  }
   return array
 end
 
