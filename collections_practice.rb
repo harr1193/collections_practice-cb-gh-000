@@ -36,3 +36,5 @@ end
 def ADD_S(array)
 
 end
+
+kesha_maker(["blake", "ashley", "scott"])
