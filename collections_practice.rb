@@ -17,7 +17,6 @@ def swap_elements(array)
 end
 
 def kesha_maker(array)
-  array.each { |str| str = $ }
   return array
 end
 
