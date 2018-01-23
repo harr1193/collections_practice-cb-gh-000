@@ -33,6 +33,6 @@ def sum_array(array)
   return array.inject(0) { |result, element| result + element }
 end
 
-def ADD_S(array)
-
+def add_s(array)
+  
 end
