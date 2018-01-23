@@ -18,6 +18,7 @@ end
 
 def kesha_maker(array)
   array.each { |str| str[2] = $ }
+  return array
 end
 
 def FIND_A(array)
